@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSenderApp.Api", "EmailSenderApp.Api\EmailSenderApp.Api.csproj", "{EB7B8BF9-32BC-4A2E-9102-CB5BF14DB15A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender.Dtos", "EmailSender.Dtos\EmailSender.Dtos.csproj", "{C53CC2E9-A7BF-4886-B41E-49E327F40901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender.Options", "EmailSender.Options\EmailSender.Options.csproj", "{82DB97E3-B9D2-4F82-AB82-FCC50182C339}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailReceiverApp", "EmailReceiverApp\EmailReceiverApp.csproj", "{D262C90A-7C46-4698-9E4D-7CB643841B9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailSender.Functions", "EmailSender.Functions\EmailSender.Functions.csproj", "{223728F3-7AB3-4CDF-8DE9-A4FABFABA817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSender.Client", "EmailSender.Client\EmailSender.Client.csproj", "{FD4B64DE-2713-48B9-85AA-B6B66DC9B2B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB7B8BF9-32BC-4A2E-9102-CB5BF14DB15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7B8BF9-32BC-4A2E-9102-CB5BF14DB15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7B8BF9-32BC-4A2E-9102-CB5BF14DB15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7B8BF9-32BC-4A2E-9102-CB5BF14DB15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53CC2E9-A7BF-4886-B41E-49E327F40901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53CC2E9-A7BF-4886-B41E-49E327F40901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53CC2E9-A7BF-4886-B41E-49E327F40901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53CC2E9-A7BF-4886-B41E-49E327F40901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DB97E3-B9D2-4F82-AB82-FCC50182C339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DB97E3-B9D2-4F82-AB82-FCC50182C339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DB97E3-B9D2-4F82-AB82-FCC50182C339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DB97E3-B9D2-4F82-AB82-FCC50182C339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D262C90A-7C46-4698-9E4D-7CB643841B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D262C90A-7C46-4698-9E4D-7CB643841B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D262C90A-7C46-4698-9E4D-7CB643841B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D262C90A-7C46-4698-9E4D-7CB643841B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223728F3-7AB3-4CDF-8DE9-A4FABFABA817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223728F3-7AB3-4CDF-8DE9-A4FABFABA817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223728F3-7AB3-4CDF-8DE9-A4FABFABA817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223728F3-7AB3-4CDF-8DE9-A4FABFABA817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4B64DE-2713-48B9-85AA-B6B66DC9B2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4B64DE-2713-48B9-85AA-B6B66DC9B2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4B64DE-2713-48B9-85AA-B6B66DC9B2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4B64DE-2713-48B9-85AA-B6B66DC9B2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30806F53-9610-438C-9DF2-54FFF503F661}
+	EndGlobalSection
+EndGlobal
